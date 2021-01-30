@@ -33,11 +33,11 @@ Finally, using the testing data to evaluate each model and compare the performan
 
 - Which model has a lower loss?
 
-* Close price based on past closing prices model has a lower loss compared to the model which predicted using FNG
+* The model based on past closing prices has a lower loss compared to the model which predicted using FNG
 
 - Which model tracks the actual values better over time?
 
-* Close price prediction based on past close prices bettter tracks the actual values than predicting using FNG.
+* The model based on past close prices bettter tracks the actual values than predicting using FNG.
 
 <table> <tr><td>
 
@@ -52,47 +52,36 @@ Finally, using the testing data to evaluate each model and compare the performan
 
 
 - Which window size works best for the model?
-* 2 day window size gave abgtter closing price prediction. <br>
+* The 2-day window size gave a better closing price prediction. <br>
 
-Price Prediction using closing prices of different time windows
+Price Predictions using closing prices across different time windows
 
-<table> <tr><td>
 
 ![Prediction using 2day window close prices](Resources/close_2day.png) 
 
-</td><td>
 
 ![Prediction using 5day window close prices](Resources/close_5day.png) 
-
-</td></tr><tr><td>
 
 
 ![Prediction using 10day window close prices](Resources/close_10day.png)
 
-</td><td>
 
 ![Prediction using 20day window close prices](Resources/close_20day.png)
 
-</td></tr> </table>
 
 
 * Price Prediction using FNG index over different time windows 
-<table> <tr><td>
 
 ![Prediction using 10day FNG window](Resources/FNG_20.png) 
 
-</td><td>
 
 ![Prediction using 20day FNG window](Resources/FNG_10day.png) 
 
-</td><td></tr><tr><td>
 
 ![Prediction using 5day FNG window](Resources/FNG_5.png)
 
-</td><td>
 
 ![Prediction using 2day FNG window](Resources/FNG_2.png) 
 
-</td></tr> </table>
 - - -
 
